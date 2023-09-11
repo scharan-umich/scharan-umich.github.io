@@ -35,6 +35,13 @@ img, video {
 }
 
 li {
+    border: solid 5px;
+    border-color: white;
+    padding: 2px;
     display: inline-block;
     margin-left: 50px;
+}
+
+#skip {
+    text-transform: uppercase;
 }
