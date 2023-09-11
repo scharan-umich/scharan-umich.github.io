@@ -26,7 +26,7 @@ p, li {
     font-weight: 300;
 }
 
-img {
+img, video {
     border: solid 5px;
     border-color: white;
     padding: 10px;
