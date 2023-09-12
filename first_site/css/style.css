@@ -44,4 +44,6 @@ li {
 
 #skip {
     text-transform: uppercase;
+    font-family: Arial;
+    font-weight: 300;
 }
