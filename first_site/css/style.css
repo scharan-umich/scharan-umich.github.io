@@ -46,4 +46,10 @@ li {
     text-transform: uppercase;
     font-family: Arial;
     font-weight: 300;
+    position: absolute;
+    left: -500px;
+}
+
+#skip:focus {
+    left: 500px;
 }
