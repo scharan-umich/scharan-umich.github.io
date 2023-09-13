@@ -9,16 +9,18 @@ h1 {
     font-size: 42px;
     text-align: center;
     padding: 15px;
+    color: #C4C4C4;
 }
 
 h2 {
-    color: #0D0D0D;
+    color: #C4C4C4;
     font-size: 32px;
 }
 
 p {
     font-size: 24px;
-    padding: 10px, 10px, 0px, 0px;
+    padding: 10px, 0px, 0px, 10px;
+    color: #707070
 }
 
 img {
@@ -36,8 +38,45 @@ div {
 
 .introduction {
     border-radius: 15px;
-    text-align: right;
-    margin-left: 50px;
-    border: 0px, 5px, 0px, 2px;
+    margin-top: 15px;
+    line-height: 2;
 }
 
+.red {
+    background-color: #FF0000;
+    text-align: right;
+    margin-left: 50px;
+    border: 0px, 0px, 2px, 5px;
+}
+
+.blue {
+    background-color: #0000FF;
+    text-align: left;
+    margin-right: 50px;
+    border: 2px, 5px, 0px, 0px;
+}
+
+.yellow {
+    background-color: #FFFF00;
+    text-align: right;
+    margin-left: 50px;
+    border: 0px, 0px, 2px, 5px;
+}
+
+.green {
+    background-color: #00EB00;
+    text-align: left;
+    margin-right: 50px;
+    border: 2px, 5px, 0px, 0px;
+}
+
+footer {
+    background: linear-gradient(90deg, #000000 0%, #0000FF 25%, #0066FF 70%, #000000 100%);
+    border: solid #FFFFFF 5px;
+}
+
+footer p {
+    font-size: 20px;
+    text-align: right;
+    padding: 15px, 15px, 15px, 0px;
+}
