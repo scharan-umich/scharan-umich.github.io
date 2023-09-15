@@ -20,10 +20,28 @@ h3 {
     font-size: 30px;
 }
 
+li {
+    border: solid 5px;
+    border-color: white;
+    padding: 2px;
+    display: inline-block;
+    margin-left: 50px;
+}
+
 p, li {
     line-height: 30px;
     font-family: Arial;
     font-weight: 300;
+}
+
+ol {
+    counter-reset: section;
+    list-style-type: none;
+}
+
+li::before {
+    counter-increment: section;
+    content: counters(section, ".") " ";
 }
 
 img, video {
@@ -32,14 +50,6 @@ img, video {
     padding: 10px;
     margin: 20px;
     border-top-right-radius: 30px;
-}
-
-li {
-    border: solid 5px;
-    border-color: white;
-    padding: 2px;
-    display: inline-block;
-    margin-left: 50px;
 }
 
 #skip {
