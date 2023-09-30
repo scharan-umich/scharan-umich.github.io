@@ -145,12 +145,12 @@ first div in the grid  and place it in the grid. */
 
 .container div:first-child {
     grid-column: 1 / -1;
+    min-height: 500px;
     background-image: url("../images/header.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 500px;
 }
 
 
@@ -161,7 +161,7 @@ first div in the grid  and place it in the grid. */
       /*This will be a lot of rules.... but be strategic and combine seletors*/
 
 .about, .method, .clients, .contact {
-    grid-column: 2 / 3;
+    grid-column: 2;
 }
 
 .about {
