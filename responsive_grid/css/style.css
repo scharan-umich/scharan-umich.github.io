@@ -161,7 +161,7 @@ first div in the grid  and place it in the grid. */
       /*This will be a lot of rules.... but be strategic and combine seletors*/
 
 .about, .method, .clients, .contact {
-    grid-column: 2;
+    grid-column-start: 2;
 }
 
 .about {
