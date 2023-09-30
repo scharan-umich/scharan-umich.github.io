@@ -113,13 +113,13 @@ nav li:focus, nav li:hover {
 }
 
 /* Step 2a: Write selector/rule property to position the default position for the skip class element*/
-.skip {
+.skip a {
     position: absolute;
     top: -40px;
 }
 
 /* Step 2b: Write selector/rule property to position the skip class element when it is in focus*/
-.skip:focus {
+.skip a:focus {
     top: 20px;
 }
 
@@ -135,6 +135,9 @@ nav li:focus, nav li:hover {
     display: grid;
     grid-template-columns: 1fr, 5fr, 1fr;
     grid-gap: 15px;
+}
+img {
+    width: 100%;
 }
 
 /* Step 5: Write selector/rule property to add the background image to the 
