@@ -108,7 +108,7 @@ footer{
 /* Step 1: Write selector/rule property to add an underline when
 links in the navigation are in the hover or focus state.*/
 
-nav li:focus, nav li:hover {
+nav a:hover, a:focus {
     text-decoration: underline;
 }
 
@@ -124,7 +124,7 @@ nav li:focus, nav li:hover {
 }
 
 /* Step 3: Write selector/rule property to style all elements when in focus*/
-:focus {
+*:focus {
     border: solid 2px black;
 }
 
