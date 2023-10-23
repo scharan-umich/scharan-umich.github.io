@@ -1,0 +1,65 @@
+﻿body {
+    background-color: rgb(195, 253, 255);
+    color: black;
+    font-size: 20px;
+}
+
+h1 {
+    font-size: 90px;
+    font-family: Dubai;
+    text-align: center;
+}
+
+h2, h3 {
+    font-size: 50px;
+    font-family: 'Arial Rounded MT';
+
+}
+
+h3 {
+    font-size: 30px;
+}
+
+li {
+    border: solid 5px;
+    border-color: white;
+    padding: 2px;
+    display: inline-block;
+    margin-left: 50px;
+}
+
+p, li {
+    line-height: 30px;
+    font-family: Arial;
+    font-weight: 300;
+}
+
+ol {
+    counter-reset: section;
+    list-style-type: none;
+}
+
+li::before {
+    counter-increment: section;
+    content: counters(section, ".") " ";
+}
+
+img, video {
+    border: solid 5px;
+    border-color: white;
+    padding: 10px;
+    margin: 20px;
+    border-top-right-radius: 30px;
+}
+
+#skip {
+    text-transform: uppercase;
+    font-family: Arial;
+    font-weight: 300;
+    position: absolute;
+    left: -500px;
+}
+
+#skip:focus {
+    left: 500px;
+}
