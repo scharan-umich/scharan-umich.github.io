@@ -13,6 +13,7 @@ h1 {
 h2, h3 {
     font-size: 50px;
     font-family: 'Arial Rounded MT';
+    text-align: center;
 
 }
 
@@ -20,18 +21,54 @@ h3 {
     font-size: 30px;
 }
 
-li {
+nav {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    justify-content: right;
+}
+
+    nav div {
+        width: 100%;
+        display: flex;
+        justify-content: right;
+    }
+
+        nav div a {
+            font-family: 'Lucida Sans';
+            font-size: larger;
+            font-weight: 600;
+            text-decoration: underline;
+        }
+
+            nav div a#current {
+                font-size: xx-large;
+            }
+
+div li {
     border: solid 5px;
     border-color: white;
     padding: 2px;
     display: inline-block;
-    margin-left: 50px;
+}
+
+div ol, div ul {
+    display: grid;
+    grid-template-columns: 200px 200px 200px
 }
 
 p, li {
     line-height: 30px;
     font-family: Arial;
     font-weight: 300;
+    margin: auto;
+    text-align: center;
+    border-radius: 5px;
+}
+
+p {
+    padding: 0px 200px;
+    padding-bottom: 20px;
 }
 
 ol {
@@ -39,27 +76,28 @@ ol {
     list-style-type: none;
 }
 
-li::before {
-    counter-increment: section;
-    content: counters(section, ".") " ";
-}
-
 img, video {
     border: solid 5px;
     border-color: white;
     padding: 10px;
-    margin: 20px;
-    border-top-right-radius: 30px;
+    border-radius: 30px;
+}
+
+#pics {
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
 #skip {
     text-transform: uppercase;
     font-family: Arial;
-    font-weight: 300;
+    font-weight: 700;
+    text-decoration: underline;
     position: absolute;
     left: -500px;
 }
 
 #skip:focus {
-    left: 500px;
+    left: 0px;
 }
