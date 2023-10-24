@@ -71,6 +71,7 @@ nav {
 
 h1 {
     background-color: red;
+    color: black;
     animation-name: titleback;
     animation-duration: 5s;
     animation-iteration-count: infinite;
