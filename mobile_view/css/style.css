@@ -50,18 +50,22 @@ nav {
 @keyframes titleback {
     0% {
         background-color: red;
+        color: black;
     }
 
     25% {
         background-color: yellow;
+        color: black;
     }
 
     50% {
         background-color: blue;
+        color: white;
     }
 
     100% {
         background-color: green;
+        color: white;
     }
 }
 
