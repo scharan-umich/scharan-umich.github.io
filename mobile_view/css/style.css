@@ -43,7 +43,34 @@ nav {
 
             nav div a#current {
                 font-size: xx-large;
+                color: black;
             }
+
+
+@keyframes titleback {
+    0% {
+        background-color: red;
+    }
+
+    25% {
+        background-color: yellow;
+    }
+
+    50% {
+        background-color: blue;
+    }
+
+    100% {
+        background-color: green;
+    }
+}
+
+h1 {
+    background-color: red;
+    animation-name: titleback;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
 
 div li {
     border: solid 5px;
@@ -100,4 +127,23 @@ img, video {
 
 #skip:focus {
     left: 0px;
+}
+
+@media only screen and (max-width: 500px) {
+
+    p {
+        padding: 0px, 50px;
+    }
+
+}
+
+@media (prefers-reduced-motion: reduce) {
+    * {
+        animation: none;
+        transition: none;
+    }
+
+    #gif {
+        display: none;
+    }
 }
