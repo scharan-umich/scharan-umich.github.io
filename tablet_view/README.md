@@ -1,2 +1,3 @@
-# scharan-umich.github.io
- SI339 - First Site
+# Tablet View
+
+First Site, but with mobile AND tablet view *oooooh*

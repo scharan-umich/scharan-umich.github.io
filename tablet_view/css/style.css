@@ -41,7 +41,7 @@ nav {
             text-decoration: underline;
         }
 
-            nav div a#current {
+            nav div a.current {
                 font-size: xx-large;
                 color: black;
             }
@@ -121,7 +121,14 @@ img, video {
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
-#skip {
+.bigpic {
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.skip {
     text-transform: uppercase;
     font-family: Arial;
     font-weight: 700;
@@ -130,14 +137,38 @@ img, video {
     left: -500px;
 }
 
-#skip:focus {
+.skip:focus {
     left: 0px;
 }
 
-@media only screen and (max-width: 500px) {
+@media screen and (max-width: 992px) {
 
     p {
-        padding: 0px, 50px;
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-bottom: 20px;
+    }
+
+    .skip {
+        left: 0px;
+        bottom: 0;
+        position: fixed;
+        background-color: black;
+        color: white;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+
+    p {
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 20px;
+    }
+
+    .skip {
+        left: -500px;
     }
 
 }
