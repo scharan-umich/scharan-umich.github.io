@@ -15,7 +15,7 @@ document.querySelector("#play").addEventListener("click", function() {
 	console.log("Playing video...")
 	video.play()
 	// Update volume text
-	document.getElementById("volume").textContent = video.volume * 100
+	document.getElementById("volume").textContent = (video.volume * 100) + "%"
 });
 
 // Pause
@@ -76,6 +76,6 @@ document.querySelector("#mute").addEventListener("click", function() {
 document.querySelector("#slider").addEventListener("click", function() {
 	console.log("Changing volume...")
 	video.volume = document.getElementById("slider").value / 100
-	document.getElementById("volume").textContent = video.volume * 100
+	document.getElementById("volume").textContent = (video.volume * 100) + "%"
 	console.log("New volume is: " + (video.volume * 100) + "%")
 });
