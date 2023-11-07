@@ -79,3 +79,15 @@ document.querySelector("#slider").addEventListener("click", function() {
 	document.getElementById("volume").textContent = (video.volume * 100) + "%"
 	console.log("New volume is: " + (video.volume * 100) + "%")
 });
+
+// Add old school
+document.querySelector("#vintage").addEventListener("click", function() {
+	console.log("Switching to old school...")
+	video.classList.add("oldSchool")
+});
+
+// Remove old school
+document.querySelector("#orig").addEventListener("click", function() {
+	console.log("Switching to original...")
+	video.classList.remove("oldSchool")
+});
