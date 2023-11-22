@@ -135,19 +135,19 @@ img, video {
 }
 
 
-#pics {
+.pics {
     margin: auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
-#recpics {
+.recpics {
     margin: auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
 
-#travpics {
+.travpics {
     margin: auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
@@ -211,11 +211,11 @@ img:hover, video:hover {
         justify-content: center;
     }
 
-    #pics {
+    .pics {
         grid-template-columns: 1fr 1fr;
     }
 
-    #travpics {
+    .travpics {
         grid-template-columns: 1fr 1fr;
     }
 
@@ -233,15 +233,15 @@ img:hover, video:hover {
         left: -500px;
     }
 
-    #pics {
+    .pics {
         grid-template-columns: 1fr;
     }
 
-    #recpics {
+    .recpics {
         grid-template-columns: 1fr;
     }
 
-    #travpics {
+    .travpics {
         grid-template-columns: 1fr;
     }
 
