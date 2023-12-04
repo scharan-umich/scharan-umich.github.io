@@ -10,6 +10,10 @@
 </head>
 <body>
 
+    <div>
+        <a href="#main" id="skip">Skip to Main Content</a>
+    </div>
+
     <nav>
         <div><a href="index.html" class="current">Home</a></div>
         <div><a href="music.html">Music</a></div>
@@ -19,13 +23,13 @@
 
     <header><h1>Saicharan Vemuri's Portfolio</h1></header>
 
-    <div class="introtext">
+    <div class="introtext" id="main">
         <p>
             Welcome to my portfolio! Hope you're doing well!
         </p>
     </div>
 
-    <div id="whoami">
+    <div id="whoami" id="main">
 
         <h2>Who Am I?</h2>
         
@@ -37,7 +41,7 @@
                 Overall, I love learning about new things, improving my skills, following my passions, and creating new things!
             </p>
     
-            <img src="img/mepic_square.jpg" id="mepic">
+            <img src="img/mepic_square.jpg" id="mepic" alt="A selfie of me putting up a peace sign (two fingers), leaning on my blue electric guitar.">
         </div>
 
     </div>
@@ -63,8 +67,10 @@
     </div>
 
     <div>
-        <a href="#" class="totop">Back To Top</a>
+        <button class="totop" id="totop">Back To Top</button>
     </div>
+
+    <script src="js/backtotop.js"></script>
 
 </body>
 </html>

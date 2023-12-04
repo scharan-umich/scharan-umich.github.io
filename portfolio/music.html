@@ -10,6 +10,10 @@
 </head>
 <body>
 
+    <div>
+        <a href="#main" id="skip">Skip to Main Content</a>
+    </div>
+
     <nav>
         <div><a href="index.html">Home</a></div>
         <div><a href="music.html" class="current">Music</a></div>
@@ -19,7 +23,7 @@
 
     <header><h1>Music</h1></header>
 
-    <div class="introtext">
+    <div class="introtext" id="main">
         <p>
             This page is a list of my musical compositions. It is organized in reverse chronological order, starting with my most recent projects. I try to upload all of my work to YouTube to make it easy to share, so I have embedded these links for your conveniece. Please note, these embeds include multiple songs in the form of a playlist.
         </p>
@@ -78,7 +82,7 @@
         <h3><a href="https://youtube.com/playlist?list=PLVBxlXibs-pygB62kL1yJWG0voRYZ3IaR" target="_blank">Soundtrack (YouTube)</a></h3>
         <h3><a href="https://fivearcher76571.itch.io/overdeveloped" target="_blank">Game Page (Itch.io)</a></h3>
 
-        <iframe class="ytembed" width="560" height="315" src="https://www.youtube.com/embed/videoseries?si=AYwqn3o2GKrCHLDT&amp;list=PLVBxlXibs-pygB62kL1yJWG0voRYZ3IaR" title="YouTube video player" frameborder="0" allow="autoplay; encrypted-media; picture-in-picture;" allowfullscreen></iframe>
+        <iframe class="ytembed" src="https://www.youtube.com/embed/videoseries?si=AYwqn3o2GKrCHLDT&amp;list=PLVBxlXibs-pygB62kL1yJWG0voRYZ3IaR" title="YouTube video player" frameborder="0" allow="autoplay; encrypted-media; picture-in-picture;" allowfullscreen></iframe>
 
         <p>
             I was the composer for this game jam project. I created two themes (main menu and gameplay). All work was done in FL Studio, using synths from FLEX, a Triple Oscillator, piano VST FL Keys, and drum sequencer Drumaxx, along with some reverb and automation. I had bought a small 32-key MIDI controller on Christmas, and this was the first project I had used it for.
@@ -99,7 +103,7 @@
         <h3><a href="https://youtube.com/playlist?list=PLVBxlXibs-pxjAlMpDngg6gYVQfh9T6XW" target="_blank">Soundtrack (YouTube)</a></h3>
         <h3><a href="https://b00pster.itch.io/grannys-day-off" target="_blank">Game Page (Itch.io)</a></h3>
 
-        <iframe class="ytembed" width="560" height="315" src="https://www.youtube.com/embed/videoseries?si=RKIF6sOdSRy7gM-P&amp;list=PLVBxlXibs-pxjAlMpDngg6gYVQfh9T6XW" title="YouTube video player" frameborder="0" allow="autoplay; encrypted-media; picture-in-picture;" allowfullscreen></iframe>
+        <iframe class="ytembed" src="https://www.youtube.com/embed/videoseries?si=RKIF6sOdSRy7gM-P&amp;list=PLVBxlXibs-pxjAlMpDngg6gYVQfh9T6XW" title="YouTube video player" frameborder="0" allow="autoplay; encrypted-media; picture-in-picture;" allowfullscreen></iframe>
 
         <p>
             This was my final project for PAT305, the video game music course at our university. I had chosen to collaborate with an EECS 494 team (our university's game development course), so I am the composer for this game. All work was done in FL Studio, using FLEX and FL Studio's included drum samples, along with automation.
@@ -116,7 +120,7 @@
         <h3><a href="https://youtube.com/playlist?list=PLVBxlXibs-pzGNWv_dx-tl8V_q4eO3WqI" target="_blank">Soundtrack (YouTube)</a></h3>
         <h3><a href="https://fivearcher76571.itch.io/bee-01" target="_blank">Game Page (Itch.io)</a></h3>
 
-        <iframe class="ytembed" width="560" height="315" src="https://www.youtube.com/embed/videoseries?si=glxVxKV-wrc0B5jR&amp;list=PLVBxlXibs-pzGNWv_dx-tl8V_q4eO3WqI" title="YouTube video player" frameborder="0" allow="autoplay; encrypted-media; picture-in-picture;" allowfullscreen></iframe>
+        <iframe class="ytembed" src="https://www.youtube.com/embed/videoseries?si=glxVxKV-wrc0B5jR&amp;list=PLVBxlXibs-pzGNWv_dx-tl8V_q4eO3WqI" title="YouTube video player" frameborder="0" allow="autoplay; encrypted-media; picture-in-picture;" allowfullscreen></iframe>
 
         <p>
             I was primarily the composer for this game jam project. It needed three tracks: main menu, level, and boss. All work was done in FL Studio for the music, and <a href="https://sfxr.me">jsfxr</a> for the sound effects. 
@@ -156,7 +160,7 @@
         <h3><a href="https://youtube.com/playlist?list=PLVBxlXibs-pyOphHw__mER_b9olAJP_q3" target="_blank">Soundtrack (YouTube)</a></h3>
         <h3><a href="https://eggshelld.itch.io/skyline" target="_blank`">Game Page (Itch.io)</a></h3>
 
-        <iframe class="ytembed" width="560" height="315" src="https://www.youtube.com/embed/videoseries?si=a-URnVd8j2irqGph&amp;list=PLVBxlXibs-pyOphHw__mER_b9olAJP_q3" title="YouTube video player" frameborder="0" allow="autoplay; encrypted-media; picture-in-picture;" allowfullscreen></iframe>
+        <iframe class="ytembed" src="https://www.youtube.com/embed/videoseries?si=a-URnVd8j2irqGph&amp;list=PLVBxlXibs-pyOphHw__mER_b9olAJP_q3" title="YouTube video player" frameborder="0" allow="autoplay; encrypted-media; picture-in-picture;" allowfullscreen></iframe>
 
         <p>
             I made the music and sound effects for this game jam project. All work was done using FL Studio's FLEX synths, and all sound effects were made using samples taken from myself and around the jam building, recorded from my phone. 
@@ -169,8 +173,10 @@
     </div>
 
     <div>
-        <a href="#" class="totop">Back To Top</a>
+        <button class="totop" id="totop">Back To Top</button>
     </div>
+
+    <script src="js/backtotop.js"></script>
     
 </body>
 </html>
