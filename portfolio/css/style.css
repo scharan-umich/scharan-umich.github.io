@@ -106,7 +106,7 @@ h2 {
 
 h2.subtitle {
     font-size: 20px;
-    color: rgb(182, 182, 182);
+    color: rgb(214, 214, 214);
 }
 
 h3 {
@@ -116,6 +116,16 @@ h3 {
 
 h3 a:hover {
     color: rgb(75, 168, 255);
+}
+
+#email h2, #linkedin h2, #yt h2 {
+    font-size: 40px;
+    color: rgb(166, 212, 255);
+}
+
+#email h2 a:hover, #linkedin h2 a:hover, #yt h2 a:hover {
+    font-size: 40px;
+    color: rgb(166, 212, 255);
 }
 
 p {
